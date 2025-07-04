@@ -8,4 +8,5 @@ I also focused on improving input validation and user experience. For example, I
 
 The reflection process helped me think about the purpose behind each part of the code and how it connects to the final project. In the future, I plan to enhance this program by restricting units of measurement to a fixed set of options, possibly using an enumeration or a predefined list. This will reduce user error and make the input process cleaner.
 
-Overall, this assignment helped me move from just writing functional code to thinking about structure, reusability, and clarity. I now have a strong foundation to build on for future steps in the project.
+Overall, this assignment helped me move from just writing functional code to thinking about structure, reusability, and clarity. I now have a strong foundation to build on for future steps in the project. The full project is also available on my GitHub in case you'd like to view it there:
+https://github.com/DezSays/IT_511_Final_Project
