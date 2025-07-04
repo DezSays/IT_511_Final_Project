@@ -1,0 +1,11 @@
+Stepping Stone 2 Reflection:
+
+For this stepping stone, I created a Java program that asks the user for ingredient information and calculates the total number of calories based on that input. The program collects the ingredient name, amount used, unit of measurement, and calories per unit, then outputs a summary of the data along with the total calories.
+
+Originally, I approached the assignment procedurally, placing everything inside the main method. However, after reviewing the project requirements and considering long-term maintainability, I refactored the program to use an Ingredient class. This shift made the code more modular, easier to understand, and better aligned with object-oriented principles. The class includes attributes for name, amount, unit, and calories, as well as a method to calculate total calories and a summary method for clean output.
+
+I also focused on improving input validation and user experience. For example, I used conditional checks like hasNextDouble() and hasNextInt() to ensure the user inputs valid data types. I added error messages that clearly explain what went wrong and why the program exits if invalid input is provided. I considered adding loops to allow the user to retry inputs instead of restarting, but that felt more appropriate for future iterations as the project grows.
+
+The reflection process helped me think about the purpose behind each part of the code and how it connects to the final project. In the future, I plan to enhance this program by restricting units of measurement to a fixed set of options, possibly using an enumeration or a predefined list. This will reduce user error and make the input process cleaner.
+
+Overall, this assignment helped me move from just writing functional code to thinking about structure, reusability, and clarity. I now have a strong foundation to build on for future steps in the project.
