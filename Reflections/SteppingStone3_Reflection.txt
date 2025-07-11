@@ -1,0 +1,7 @@
+Stepping Stone 3 Reflection:
+
+For this assignment, I created a Java program that uses branching logic to validate a user's input. The program prompts the user to enter the number of cups for an ingredient and checks whether the value is between 1 and 100, inclusive. If the value is within the valid range, the program confirms the input as valid. If the number is outside that range, the user is given one additional chance to enter a new number. The program then checks the second input and provides a message based on whether the second attempt is still invalid, too low, or too high.
+
+I used a Scanner object and the hasNextInt() method to validate that the user entered an integer before proceeding. I also implemented nested if and else if statements to provide detailed feedback depending on the user's input. This helped reinforce how conditional logic can be layered to guide user interaction and catch errors. One challenge I encountered was managing the flow between the first and second inputs, especially with different outcomes based on what the user entered. Testing each branch carefully helped ensure the logic worked as expected.
+
+This assignment helped me understand how to validate user input in a way that enhances the user experience while maintaining control over program behavior. It also connects directly to future project steps where I will need to validate other types of input like ingredient names, amounts, and calories.
